@@ -3,6 +3,7 @@ $lightGrey: #131313;
 $lighterGrey: #282828;
 $greyText: #b3b3b3;
 $greyNav: #090909;
+$greenMain: #1db954;
 
 
 
@@ -18,18 +19,20 @@ $greyNav: #090909;
 }
 
 .navBar {
-  width: 228px;
+  width: 260px;
   background: $darkGrey;
   height: 100%;
   padding: 10px 10px 0;
   display: flex;
   flex-direction: column;
   .logo {
-    padding: 1.5rem 0.8rem;
+    padding: 1rem 0.8rem;
     svg {
       max-width: 130px;
+      
       path {
         fill: #9370d9;
+        
       }
     }
    
@@ -41,10 +44,15 @@ $greyNav: #090909;
       color: $greyText;
       list-style-type: none;
       border-radius: 5px;
-      padding: 0.7rem;
+      padding: 0.5rem 0.8rem;
       font-size: 0.8rem;
       cursor: pointer;
       transition: all 0.3s ease-in-out;
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 15px;
+      }
       &.active {
         background: $lighterGrey;
       }
@@ -112,10 +120,16 @@ min-height: 100%;
   .card {
     background: $lighterGrey;
     border-radius: 10px;
-    width: 180px;
+    width: 190px;
     overflow: hidden;
-    padding: 1.2rem;
+    padding: 1.2rem 1.2rem 0.8rem;;
     box-shadow: 0 10px 30px 0 rgba(147,112,217,.4), 0 1px 2px 0 rgba(147,112,217,.4);
+    position: relative;
+    &:hover {
+      .playIcon {
+        opacity: 1;
+      }
+    }
     .cardImage {
       height: 160px;
       box-shadow: 0 10px 30px 0 rgba(0,0,0,.4), 0 1px 2px 0 rgba(0,0,0,.4);
@@ -130,7 +144,23 @@ min-height: 100%;
       h3 {
         font-weight: 600;
         font-size: 0.9rem;
+        margin-bottom: 0;
+        letter-spacing: 0.6px;
       }
     }
+  }
+}
+
+.playIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display:flex;
+  background: $greenMain;
+  margin-left: auto;
+  opacity: 0; 
+  svg {
+    margin: auto;
   }
 }
