@@ -3,7 +3,7 @@ import React from 'react'
 const Main = () => {
     return <div className="main">
         <div className="upperNav">
-            dummy text
+            double check text
         </div>
 
         <div className="mainContent">
@@ -14,7 +14,7 @@ const Main = () => {
                         <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="test 1"/>
                     </div>
                     <div className="cardContent">
-                        <h3>Liked Songs</h3>
+                        <h3>Favorite Songs</h3>
                     </div>
                 </div>
 
