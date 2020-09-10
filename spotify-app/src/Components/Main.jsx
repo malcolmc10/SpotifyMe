@@ -1,6 +1,7 @@
 import React from 'react'
 import { ReactComponent as PlayIcon } from '../svgs/play.svg'
 import Categories from './Categories'
+import {Switch, Route} from 'react-router-dom'
 
 const Main = () => {
     return <div className="main">
@@ -9,7 +10,18 @@ const Main = () => {
         </div>
 
         <div className="mainContent">
-            <Categories />
+            <Switch>
+                <Route path="/" exact component={Categories}>
+                    <Route path="/search">Search</Route>
+                    <Route path="/your-library">Library</Route>
+
+                    
+
+
+                </Route>
+
+            </Switch>
+            {/* <Categories /> */}
             
 
             
