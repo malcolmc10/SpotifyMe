@@ -2,7 +2,7 @@ import React from 'react'
 // import { ReactComponent as PlayIcon } from '../svgs/play.svg'
 import Categories from './Categories'
 import {Switch, Route} from 'react-router-dom'
-import PlaylistPage from './pages/Playlist'
+import Playlist from './pages/Playlist'
 
 const Main = () => {
     return ( <div className="main">
@@ -15,7 +15,7 @@ const Main = () => {
                 <Route path="/" exact component={Categories}></Route>
                     <Route path="/search">Search</Route>
                     <Route path="/your-library">Your Library</Route>
-                    <Route path="/playlist:id" component={PlaylistPage}></Route>
+                    <Route path="/playlist/:id" component={Playlist}></Route>
                 
             </Switch>
             {/* <Categories /> */}
