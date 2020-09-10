@@ -25,13 +25,13 @@ const Nav = () => {
         Home
         </li>
         </Link>
-        <Link to="/">
+        <Link to="/search">
           <li>
             <SearchIcon />
         Search
         </li>
         </Link>
-        <Link to="/">
+        <Link to="/your-library">
           <li>
             <LibraryIcon />
         Your Library
