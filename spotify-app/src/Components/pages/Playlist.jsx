@@ -8,10 +8,12 @@ const Playlist = () => {
 
 
     return (
-        <div>
+        <div className="playlistPage">
             <div className="playlistPageInfo">
-                <div className="PlaylistPageImage"></div>
-                    <img src="https://images.unsplash.com/photo-1578300253266-dedd2cd40912?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="test2"></img>
+                <div className="playlistPageImage">
+                <img src="https://images.unsplash.com/photo-1574322101375-2591ed7667cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="test2"/>
+                </div>
+                    
                 <h1>Title</h1>
                 <p>Spotify</p>
                 <button>Play</button>

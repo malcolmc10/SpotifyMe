@@ -210,3 +210,20 @@ min-height: 100%;
     margin: auto;
   }
 }
+
+.playlistPage {
+  .playlistPageInfo {
+    .playlistPageImage {
+      width: 200px;
+      height: 200px;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+
+      }
+    }
+  }
+
+}
