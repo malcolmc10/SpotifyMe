@@ -9,6 +9,7 @@ $greenMain: #1db954;
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .subText {
@@ -155,6 +156,7 @@ min-height: 100%;
     padding: 1.2rem 1.2rem 0.8rem;
     box-shadow: 0 10px 30px 0 rgba(147,112,217,.4), 0 1px 2px 0 rgba(147,112,217,.4);
     position: relative;
+    color: white;
   
     &:hover {
       .playIcon {
