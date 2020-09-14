@@ -18,9 +18,9 @@ const Playlist = () => {
                     <div className="playlistPageContent">
                         <p className="smallText uppercase bold">Playlist</p>
                         <h1>Stargazing</h1>
-                        <p className="smallText">Intergalactic, so Fantastic make you just go Woo Woo.</p>
+                        <p className="tagline">Intergalactic, so Fantastic make you just go Woo Woo.</p>
                         <div className="playlistPageDesc">
-                        <p className="spotify">Spotify</p>
+                        <span className="spotify">Spotify</span>
                         <span>251,990 likes</span>
                         <span>3 hr 20 min</span>
                         
