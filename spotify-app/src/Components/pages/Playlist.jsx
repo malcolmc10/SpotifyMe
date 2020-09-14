@@ -17,8 +17,8 @@ const Playlist = () => {
 
                     <div className="playlistPageContent">
                     <p className="smallText uppercase">Playlist</p> 
-                    <h1>Title</h1>
-                    <p>Here's some amazing music with takeover Power Hour, LET's GO!.</p>
+                    <h1>Stargazing</h1>
+                    <p>Intergalactic, so Fantastic make you just go Woo Woo.</p>
                     <p>Spotify</p>
                     {/* <button>Play</button> */}
                     <div className="icons">
