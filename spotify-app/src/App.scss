@@ -12,6 +12,16 @@ $greenMain: #1db954;
   text-decoration: none;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.smallText {
+  font-size: 0.75rem;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+
 .subText {
   font-size: 0.9rem;
   color: $greyText;
@@ -250,5 +260,11 @@ flex-direction: column;
   }
     .playlistPageContent {
       text-align: left;
+      padding-left: 2rem ;
+      h1 {
+        font-size: 7rem;
+        margin: 0;
+        line-height: 1;
+      }
     }
 }

@@ -16,16 +16,17 @@ const Playlist = () => {
                     </div>
 
                     <div className="playlistPageContent">
-                        
+                    <p className="smallText uppercase">Playlist</p> 
                     <h1>Title</h1>
+                    <p>Here's some amazing music with takeover Power Hour, LET's GO!.</p>
                     <p>Spotify</p>
-                    <button>Play</button>
+                    {/* <button>Play</button> */}
                     <div className="icons">
                         <div className="iconsHeart"></div>
                         <div className="iconsDots"></div>
 
                     </div>
-                    <p>Just jamming out to some amazing music.</p>
+                    
                 </div>
 
                     </div>
