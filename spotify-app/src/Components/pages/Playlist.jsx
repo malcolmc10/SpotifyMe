@@ -19,8 +19,13 @@ const Playlist = () => {
                         <p className="smallText uppercase bold">Playlist</p>
                         <h1>Stargazing</h1>
                         <p className="smallText">Intergalactic, so Fantastic make you just go Woo Woo.</p>
-                        <p>Spotify</p>
-
+                        <div className="playlistPageDesc">
+                        <p className="spotify">Spotify</p>
+                        <span>251,990 likes</span>
+                        <span>3 hr 20 min</span>
+                        
+                        
+                        </div>
 
 
                     </div>

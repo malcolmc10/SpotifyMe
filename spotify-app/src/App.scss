@@ -271,5 +271,12 @@ flex-direction: column;
         word-spacing: -18px;
         letter-spacing: -6px;
       }
+      .playListPageDesc {
+        display: flex;
+        align-items: center;
+        p {
+          margin: 0;
+        }
+      }
     }
 }
