@@ -12,28 +12,30 @@ const Playlist = () => {
             <div className="mainInner">
                 <div className="playlistPageInfo">
                     <div className="playlistPageImage">
-                        <img src="https://images.unsplash.com/photo-1574322101375-2591ed7667cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="test2" />
+                        <img src="https://images.unsplash.com/photo-1536430380482-2dc009b8dd36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="test2" />
                     </div>
 
                     <div className="playlistPageContent">
-                    <p className="smallText uppercase">Playlist</p> 
-                    <h1>Stargazing</h1>
-                    <p>Intergalactic, so Fantastic make you just go Woo Woo.</p>
-                    <p>Spotify</p>
-                    {/* <button>Play</button> */}
+                        <p className="smallText uppercase">Playlist</p>
+                        <h1>Stargazing</h1>
+                        <p>Intergalactic, so Fantastic make you just go Woo Woo.</p>
+                        <p>Spotify</p>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div className="playlistPageSongs">
+                    <button>Play</button>
                     <div className="icons">
                         <div className="iconsHeart"></div>
                         <div className="iconsDots"></div>
 
                     </div>
-                    
-                </div>
-
-                    </div>
-
-                    
-
-                <div className="playlistPageSongs">
                     <ul>
                         <li>Song 1</li>
                         <li>Song 2</li>

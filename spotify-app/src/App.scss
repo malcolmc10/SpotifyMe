@@ -248,6 +248,8 @@ flex-direction: column;
       width: 250px;
       height: 250px;
       // margin: auto;
+      -webkit-box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 4px 60px rgba(0,0,0,0.5);
       
       img {
         height: 100%;
