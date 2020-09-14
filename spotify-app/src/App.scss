@@ -226,16 +226,19 @@ color-stop(40%, #121212 40%));
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), #121212 40%);
 width: 100%;
 display: flex;
+flex-direction: column;
 }
 
   .playlistPageInfo {
-    width: 300px;
+    // width: 300px;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
+    display: flex;
     .playlistPageImage {
       width: 250px;
       height: 250px;
-      margin: auto;
+      // margin: auto;
+      
       img {
         height: 100%;
         width: 100%;
@@ -245,5 +248,7 @@ display: flex;
       }
     }
   }
-
+    .playlistPageContent {
+      text-align: left;
+    }
 }

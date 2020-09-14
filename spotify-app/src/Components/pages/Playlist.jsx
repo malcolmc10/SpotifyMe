@@ -10,15 +10,13 @@ const Playlist = () => {
     return (
         <div className="playlistPage">
             <div className="mainInner">
-
-
-
-
                 <div className="playlistPageInfo">
                     <div className="playlistPageImage">
                         <img src="https://images.unsplash.com/photo-1574322101375-2591ed7667cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="test2" />
                     </div>
 
+                    <div className="playlistPageContent">
+                        
                     <h1>Title</h1>
                     <p>Spotify</p>
                     <button>Play</button>
@@ -29,6 +27,10 @@ const Playlist = () => {
                     </div>
                     <p>Just jamming out to some amazing music.</p>
                 </div>
+
+                    </div>
+
+                    
 
                 <div className="playlistPageSongs">
                     <ul>
