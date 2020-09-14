@@ -19,8 +19,9 @@ $greenMain: #1db954;
 .smallText {
   font-size: 0.75rem;
   letter-spacing: 0.8px;
-  font-weight: 600;
-}
+  &.bold {
+    font-weight: 600;
+}}
 
 .subText {
   font-size: 0.9rem;
