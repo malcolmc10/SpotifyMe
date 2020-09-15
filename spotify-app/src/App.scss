@@ -131,6 +131,25 @@ min-height: 100%;
   padding-top: 3rem;
   z-index: 2;
   opacity: 0.5;
+  .arrows {
+    display: block;
+    padding-bottom: 30px;
+    
+    
+    img {
+      height: 26px;
+      width: 26px;
+      opacity: 1;     
+       margin-left: 20px;
+       box-sizing: border-box;
+       border-radius: 50%;
+       background-color: black;
+    
+       
+    
+  
+  }
+  }
 }
 
 .main {

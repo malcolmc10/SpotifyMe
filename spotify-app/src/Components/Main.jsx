@@ -10,8 +10,8 @@ const Main = () => {
     return ( <div className="main">
         <div className="upperNav">
         <div className="arrows">
-        <a href ="/"><img src={left} /></a>
-        <a href ="#"><img src={right} /></a>
+        <img src={left} />
+        <img src={right} />
         </div>
         </div>
 
