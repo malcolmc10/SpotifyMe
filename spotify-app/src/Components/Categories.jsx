@@ -6,48 +6,47 @@ const Categories = () => {
 
     const dataCategories = [
         {
-           id: 1,
-           name:  'Focus',
+            id: 1,
+            name: 'Focus',
             tagline: 'Music to help you concentrate'
-            
+
         },
         {
             id: 2,
-            name:  'Mood',
+            name: 'Mood',
             tagline: 'Playlists to match your mood.'
-         },
-         {
+        },
+        {
             id: 3,
-            name:  'Chill',
+            name: 'Chill',
             tagline: 'Unwind with these calming playlists.'
-         },
-         {
+        },
+        {
             id: 4,
-            name:  'Need More Bass',
+            name: 'Need More Bass',
             tagline: 'Celetrate the best way with these jams.'
-         },
+        },
 
     ]
     return (
         <div className="mainInner">
             {dataCategories.map((category, id) => (
                 <div className="cardsWrap" key={id}>
-                <h2> {category.name} </h2>
-                {/* <span className="seeAll">See All</span> */}
-                <p className="subText">Music to motivate you</p>
-                <Playlists category_id={category.id} />
-                
+                    <h2> {category.name} </h2>
+                    <p className="subText">Music to motivate you</p>
+                    <Playlists category_id={category.id} />
+
 
                 </div>
 
             ))}
             <div>
-            
+
             </div>
 
-            
+
         </div>
-        
+
     )
 }
 

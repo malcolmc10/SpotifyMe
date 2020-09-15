@@ -165,7 +165,7 @@ min-height: 100%;
   
   .mainContent {
     color: white;
-    // padding: 0.5rem 2rem;
+
     .mainInner {
       padding: 0.5rem 2rem;
     }
@@ -182,7 +182,6 @@ min-height: 100%;
     margin-bottom: 0; 
   }
   .cardsWrapInner {
-    // display: grid;
     display: flex;
     grid-template-columns: repeat(auto-fill,minmax(164px,1fr));
 
@@ -261,7 +260,6 @@ min-height: 100%;
 }
 
 .playlistPage {
-  // display: flex;
   background-color: rgb(214, 214, 214);
 .mainInner {
   background-image: -webkit-gradient(
@@ -425,10 +423,6 @@ ul.songList {
         height: 15px;
       }
     }
-    // &:hover {
-    //   background-color: rgba(255,255,255,0.7);
-      
-    // }
   }
 }
 

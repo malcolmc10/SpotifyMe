@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'
 import { ReactComponent as PlayIcon } from '../../svgs/play.svg'
-import {ReactComponent as Heart} from '../../svgs/heart.svg'
-import {ReactComponent as NoteIcon} from '../../svgs/note.svg'
+import { ReactComponent as Heart } from '../../svgs/heart.svg'
+import { ReactComponent as NoteIcon } from '../../svgs/note.svg'
 
 const Playlist = () => {
 
@@ -23,11 +23,11 @@ const Playlist = () => {
                         <h1>Stargazing</h1>
                         <p className="tagline">Intergalactic, so Fantastic make you just go Woo Woo.</p>
                         <div className="playlistPageDesc">
-                        <span className="spotify">Spotify</span>
-                        <span className="span1">251,990 likes</span>
-                        <span className="span1">3 hr 20 min</span>
-                        
-                        
+                            <span className="spotify">Spotify</span>
+                            <span className="span1">251,990 likes</span>
+                            <span className="span1">3 hr 20 min</span>
+
+
                         </div>
 
 
@@ -39,232 +39,232 @@ const Playlist = () => {
 
                 <div className="playlistPageSongs">
                     <div className="playlistButtons">
-                        
-                        <span className="playIcon"><PlayIcon/></span>
-                    
-                    <div className="icons">
-                        <div className="icon iconsHeart">
-                        <Heart/>
-                        </div>
-                        <div className="icon iconsDots">
-                         
+
+                        <span className="playIcon"><PlayIcon /></span>
+
+                        <div className="icons">
+                            <div className="icon iconsHeart">
+                                <Heart />
+                            </div>
+                            <div className="icon iconsDots">
+
+                            </div>
+
                         </div>
 
                     </div>
 
-                    </div>
-                    
                     <ul className="songList">
                         <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Finally Moving</h3>
-                            <span >Pretty Lights</span>
+                                <h3>Finally Moving</h3>
+                                <span >Pretty Lights</span>
 
                             </div>
                             <div className="songTime">
-                            <span>7:01</span>
+                                <span>7:01</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Sweet Memories</h3>
-                            <span >CID, KasKade</span>
+                                <h3>Sweet Memories</h3>
+                                <span >CID, KasKade</span>
 
                             </div>
                             <div className="songTime">
-                            <span>2:37</span>
+                                <span>2:37</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Hear Me Out - Anja Schneider Remix</h3>
-                            <span >Yotto, SØNIN, Laudic, Ana Schneider</span>
+                                <h3>Hear Me Out - Anja Schneider Remix</h3>
+                                <span >Yotto, SØNIN, Laudic, Ana Schneider</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:24</span>
+                                <span>3:24</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>You Bring Me Joy</h3>
-                            <span >BLR, FVNDAMENTAL</span>
+                                <h3>You Bring Me Joy</h3>
+                                <span >BLR, FVNDAMENTAL</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:30</span>
+                                <span>3:30</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Final Call</h3>
-                            <span >Sem Thomasson, Sparre</span>
+                                <h3>Final Call</h3>
+                                <span >Sem Thomasson, Sparre</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:14</span>
+                                <span>3:14</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>La Luh</h3>
-                            <span >Choomba</span>
+                                <h3>La Luh</h3>
+                                <span >Choomba</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:33</span>
+                                <span>3:33</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Together - SMLE Remix</h3>
-                            <span >CID, SMLE</span>
+                                <h3>Together - SMLE Remix</h3>
+                                <span >CID, SMLE</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:14</span>
+                                <span>3:14</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Space</h3>
-                            <span >Plusmore</span>
+                                <h3>Space</h3>
+                                <span >Plusmore</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:44</span>
+                                <span>3:44</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>We Are The Universe</h3>
-                            <span >llan Bluestone, El Waves</span>
+                                <h3>We Are The Universe</h3>
+                                <span >llan Bluestone, El Waves</span>
 
                             </div>
                             <div className="songTime">
-                            <span>4:00</span>
+                                <span>4:00</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Ksamil</h3>
-                            <span >Dave Winnel</span>
+                                <h3>Ksamil</h3>
+                                <span >Dave Winnel</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:10</span>
+                                <span>3:10</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Organic Cold Brewed Hipster Funk</h3>
-                            <span >Martin Roth</span>
+                                <h3>Organic Cold Brewed Hipster Funk</h3>
+                                <span >Martin Roth</span>
 
                             </div>
                             <div className="songTime">
-                            <span>3:55</span>
+                                <span>3:55</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>W.T.F</h3>
-                            <span >Moon Boots</span>
+                                <h3>W.T.F</h3>
+                                <span >Moon Boots</span>
 
                             </div>
                             <div className="songTime">
-                            <span>4:52</span>
+                                <span>4:52</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>10AM</h3>
-                            <span >Murtagh</span>
+                                <h3>10AM</h3>
+                                <span >Murtagh</span>
 
                             </div>
                             <div className="songTime">
-                            <span>5:08</span>
+                                <span>5:08</span>
                             </div>
-                            </li>
+                        </li>
 
-                            <li>
+                        <li>
                             <div className="songIcon">
-                                <NoteIcon className="noteI"/>
-                                <PlayIcon className="playI"/>
+                                <NoteIcon className="noteI" />
+                                <PlayIcon className="playI" />
                             </div>
                             <div className="songDetails">
-                            <h3>Time</h3>
-                            <span >FEYNMAN, Monomotion</span>
+                                <h3>Time</h3>
+                                <span >FEYNMAN, Monomotion</span>
 
                             </div>
                             <div className="songTime">
-                            <span>4:01</span>
+                                <span>4:01</span>
                             </div>
-                            </li>
-                        
+                        </li>
+
 
 
 
