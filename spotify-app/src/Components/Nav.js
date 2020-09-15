@@ -4,6 +4,7 @@ import { ReactComponent as SearchIcon } from '../svgs/search.svg'
 import { ReactComponent as LibraryIcon } from '../svgs/library.svg'
 import { Link } from 'react-router-dom'
 
+
 const Nav = () => {
   return (
     <div className="navBar">
