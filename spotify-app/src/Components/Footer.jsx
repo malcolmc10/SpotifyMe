@@ -17,7 +17,7 @@ export default class Footer extends Component {
                 <a href="https://medium.com/@colinmalcolm"><img src={medium} /></a>
 
                 <span>© 2020 Colin Malcolm</span>
-                <span>This is a Spotify UI clone, icons by flaticons.com</span>
+                <span>This is my Spotify UI clone, icons by flaticons.com</span>
 
             </div>
         )
