@@ -3,11 +3,16 @@ import React from 'react'
 import Categories from './Categories'
 import {Switch, Route} from 'react-router-dom'
 import Playlist from './pages/Playlist'
+import left from '../svgs/leftbutton.svg'
+import right from '../svgs/rightbutton.svg'
 
 const Main = () => {
     return ( <div className="main">
         <div className="upperNav">
-            double check text
+        <div className="arrows">
+        <a href ="/"><img src={left} /></a>
+        <a href ="#"><img src={right} /></a>
+        </div>
         </div>
 
         <div className="mainContent">
