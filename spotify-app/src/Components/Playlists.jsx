@@ -53,6 +53,69 @@ const Playlists = (props) => {
         img: 'https://images.unsplash.com/photo-1524293568345-75d62c3664f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=654&q=80',
         des: 'Laugh till it hurts with this funny playlist...'
     },
+    {
+        id: 108,
+        category_id: 2,
+        name: 'Friday Night',
+        img: 'https://images.unsplash.com/photo-1563784462386-044fd95e9852?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80',
+        des: 'Take me back to the land of beaches...'
+    },
+    {
+        id: 109,
+        category_id: 2,
+        name: 'Dance Dance',
+        img: 'https://images.unsplash.com/photo-1466554934129-f71df54ebb27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
+        des: 'Dance till you drop...'
+    },
+    {
+        id: 110,
+        category_id: 1,
+        name: 'Study Group',
+        img: 'https://images.unsplash.com/photo-1555323912-3526a765162b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1791&q=80',
+        des: 'Study with your friends and have a good time...'
+    },
+    {
+        id: 111,
+        category_id: 1,
+        name: 'Into Indie',
+        img: 'https://images.unsplash.com/photo-1600102598918-b97064b8ae83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80',
+        des: 'Focus with this indie playlist...'
+    },
+    {
+        id: 112,
+        category_id: 1,
+        name: 'Pump Up Jams',
+        img: 'https://images.unsplash.com/photo-1575540325855-4b5d285a3845?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80',
+        des: 'Time to workout...'
+    },
+    {
+        id: 113,
+        category_id: 3,
+        name: 'Tame the Beast',
+        img: 'https://images.unsplash.com/photo-1561907484-2cfeddf02318?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80',
+        des: 'Relief the stress with this magical playlist...'
+    },
+    {
+        id: 114,
+        category_id: 4,
+        name: 'Freedom Unmuted',
+        img: 'https://images.unsplash.com/photo-1574322101375-2591ed7667cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+        des: 'Let the beats drop...'
+    },
+    {
+        id: 115,
+        category_id: 4,
+        name: 'Music Festival',
+        img: 'https://images.unsplash.com/photo-1598321677385-e27c40329aed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        des: 'Your favorites all in one place...'
+    },
+    {
+        id: 116,
+        category_id: 4,
+        name: 'UnHinged',
+        img: 'https://images.unsplash.com/photo-1571751239008-50cad6cb9265?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+        des: 'Let loose with these favorites...'
+    },
 
 
     ]
