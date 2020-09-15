@@ -66,7 +66,7 @@ const Playlists = (props) => {
                     <Link to={`/playlist/` + playlist.id}>
                     <div className="card" key={id} >
                         <div className="cardImage">
-                            <img src={playlist.img} />
+                            <img className="cardImage-background" src={playlist.img} />
                         </div>
                         <div className="cardContent">
                 <h3>{playlist.name}</h3>
