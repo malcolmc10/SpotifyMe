@@ -1,5 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'
+import { ReactComponent as PlayIcon } from '../../svgs/play.svg'
+import {ReactComponent as Heart} from '../../svgs/heart.svg'
 
 const Playlist = () => {
 
@@ -21,8 +23,8 @@ const Playlist = () => {
                         <p className="tagline">Intergalactic, so Fantastic make you just go Woo Woo.</p>
                         <div className="playlistPageDesc">
                         <span className="spotify">Spotify</span>
-                        <span>251,990 likes</span>
-                        <span>3 hr 20 min</span>
+                        <span className="span1">251,990 likes</span>
+                        <span className="span1">3 hr 20 min</span>
                         
                         
                         </div>
@@ -35,12 +37,20 @@ const Playlist = () => {
 
 
                 <div className="playlistPageSongs">
-                    <button>Play</button>
+                    <div className="playlistButtons">
+                        
+                        <span className="playIcon"><PlayIcon/></span>
+                    
                     <div className="icons">
-                        <div className="iconsHeart"></div>
-                        <div className="iconsDots"></div>
+                        <div className="iconsHeart">
+                        <Heart/>
+                        </div>
+                        <div className="iconsDots">...</div>
 
                     </div>
+
+                    </div>
+                    
                     <ul>
                         <li>Song 1</li>
                         <li>Song 2</li>
