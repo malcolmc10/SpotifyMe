@@ -349,9 +349,38 @@ ul.songList {
   li {
     list-style-type: none;
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s ease-in-out;
     &:hover {
-      background-color: red;
+      background: rgba(255,255,255,0.1);
     }
+    .songDetails {
+      h3 {
+        margin: 0;
+        font-weight: 500;
+        font-size: 1rem;
+      }
+      span {
+        color: rgba(255,255,255,0.7);
+        font-size: 0.9rem;
+      }
+    }
+    .songTime {
+      margin-left: auto;
+    }
+    .songIcon {
+      padding-right: 1rem;
+      svg {
+        fill: rgba(255,255,255,0.7);
+        width: 15px;
+        height: 15px;
+      }
+    }
+    // &:hover {
+    //   background-color: rgba(255,255,255,0.7);
+      
+    // }
   }
 }
