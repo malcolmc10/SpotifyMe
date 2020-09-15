@@ -33,6 +33,7 @@ $greenMain: #1db954;
   background:$lightGrey;
   display: flex;
   color: white;
+  
 }
 
 .navBar {
@@ -117,6 +118,36 @@ min-height: 100%;
   z-index: 2;
   position: relative;
   border-top: 1px solid $darkGrey;
+  opacity: 1;
+    .leftButton {
+      width: 24px;
+      height: 24px;
+      fill: white;
+      margin-right: 2rem;
+      &:hover {
+        fill: #9751fb;
+      }
+      
+    }
+    .rightButton {
+      width: 24px;
+      height: 24px;
+      fill: white;
+      margin-left: 2rem;
+      &:hover {
+        fill: #9751fb;
+      }
+      
+    }
+    .pauseButt {
+      width: 24px;
+      height: 24px;
+      fill: white;
+      margin-left: 1rem; 
+      &:hover {
+        fill: #9751fb;
+      }
+    }
 }
 
 .upperNav {
