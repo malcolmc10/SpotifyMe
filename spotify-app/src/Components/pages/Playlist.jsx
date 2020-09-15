@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom'
 import { ReactComponent as PlayIcon } from '../../svgs/play.svg'
 import {ReactComponent as Heart} from '../../svgs/heart.svg'
+// import {ReactComponent as More} from '../../svgs/more.svg'
 
 const Playlist = () => {
 
@@ -45,7 +46,9 @@ const Playlist = () => {
                         <div className="iconsHeart">
                         <Heart/>
                         </div>
-                        <div className="iconsDots">...</div>
+                        <div className="iconsDots">
+                        {/* <More/> */} ...
+                        </div>
 
                     </div>
 

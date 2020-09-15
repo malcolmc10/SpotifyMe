@@ -262,6 +262,9 @@ flex-direction: column;
   }
     .playlistPageSongs {
       height: 100%;
+      .playlistButtons {
+        display: flex;
+      }
       .playIcon {
         @extend .playIcon;
         opacity: 1;
@@ -278,10 +281,17 @@ flex-direction: column;
       }
       .icons {
         .iconsHeart {
-          width: 36px;
-          height: 36px;
-          
-          
+          width: 28px;
+          height: 28px;
+          svg {
+            fill: white;
+            &:hover {
+              fill: #9751fb;
+              
+              
+            }
+            
+          }
           
         }
       }
