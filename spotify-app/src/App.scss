@@ -264,6 +264,7 @@ flex-direction: column;
       height: 100%;
       .playlistButtons {
         display: flex;
+        align-items: center;
       }
       .playIcon {
         @extend .playIcon;
@@ -279,10 +280,13 @@ flex-direction: column;
           width: 26px;
         }
       }
+      .icon {
+        margin-left: 1.5rem;
+      }
       .icons {
         .iconsHeart {
-          width: 28px;
-          height: 28px;
+          width: 35px;
+          height: 35px;
           svg {
             fill: white;
             &:hover {
@@ -292,7 +296,14 @@ flex-direction: column;
             }
             
           }
-          
+          .iconsDots {
+            width: 30px;
+            height: 10px;
+            svg {
+              fill: white;
+            
+            }
+          }
         }
       }
     }
@@ -331,4 +342,16 @@ flex-direction: column;
         
       }
     }
+}
+
+ul.songList {
+  padding: 0;
+  li {
+    list-style-type: none;
+    width: 100%;
+    padding: 0.5rem;
+    &:hover {
+      background-color: red;
+    }
+  }
 }

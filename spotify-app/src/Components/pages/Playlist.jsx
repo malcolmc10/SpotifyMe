@@ -43,23 +43,51 @@ const Playlist = () => {
                         <span className="playIcon"><PlayIcon/></span>
                     
                     <div className="icons">
-                        <div className="iconsHeart">
+                        <div className="icon iconsHeart">
                         <Heart/>
                         </div>
-                        <div className="iconsDots">
-                        {/* <More/> */} ...
+                        <div className="icon iconsDots">
+                         
                         </div>
 
                     </div>
 
                     </div>
                     
-                    <ul>
-                        <li>Song 1</li>
-                        <li>Song 2</li>
-                        <li>Song 3</li>
-                        <li>Song 4</li>
-                        <li>Song 5</li>
+                    <ul className="songList">
+                        <li>
+                            <div className="songIcon">
+
+                            </div>
+                            <div className="songDetails">
+
+
+                            </div>
+                            <div className="songTime">
+
+                            </div>
+                            Song 1
+                            
+                            </li>
+                        <li>
+                            Song 2
+                            
+                            </li>
+                        <li>
+                            
+                            Song 3
+                            
+                            </li>
+                        <li>
+                            
+                            Song 4
+                            
+                            </li>
+                        <li>
+                            
+                            Song 5
+                            
+                            </li>
 
 
 
