@@ -355,6 +355,16 @@ ul.songList {
     transition: background 0.2s ease-in-out;
     &:hover {
       background: rgba(255,255,255,0.1);
+      .songIcon {
+        
+        .noteI {
+          display: none;
+        }
+        
+        .playI {
+          display: block;
+        }
+      }
     }
     .songDetails {
       h3 {
@@ -372,6 +382,9 @@ ul.songList {
     }
     .songIcon {
       padding-right: 1rem;
+      .playI {
+        display: none;
+      }
       svg {
         fill: rgba(255,255,255,0.7);
         width: 15px;
