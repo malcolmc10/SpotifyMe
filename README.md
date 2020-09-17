@@ -86,11 +86,11 @@ src
 
 
 ```
--Create accurate search page with cards, colors, and music.
--link working profile with UI using Spotify API.
--Create Library with favorite music. 
--Create music controls panel
-```
+>Create accurate search page with cards, colors, and music.<br>
+>link working profile with UI using Spotify API.<br>
+>Create Library with favorite music. <br>
+>Create music controls panel
+
 
 <br>
 
