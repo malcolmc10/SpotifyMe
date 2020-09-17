@@ -25,7 +25,8 @@ Library	Description
 >SCSS - CSS for my project.
 
 
-```
+
+
 Component Hierarchy
 src
 |______
@@ -40,7 +41,7 @@ src
               |__pages
                   |__Playlist.jsx
               |__svgs
-      ```
+      
       
       
 
@@ -91,7 +92,7 @@ src
 <br>
 
 
-```
+
 ***
 ### Post-MVP
 
