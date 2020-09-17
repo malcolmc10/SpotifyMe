@@ -4,15 +4,15 @@ SPotifyMe is a Spotify UI clone made to resemble the Spotify app as of September
 
 #Deployed site: http://spotifyme.surge.sh
  
-```
+
 #MVP
-I want to make the application that resembles the Spotify app as close as possible.
-I will create objects that hold the playlists and use an API call to call upon that information to appear onto the Main Component.
-I will add a zoom feature to the cards and make a custom color code for my project. 
-I will structure my code with the means of professionaism. I will avoid dirty code and remove all console.logs and notes that are not required for those who read the code in the future.
-I will use SCSS to create the look of my UI. 
+>I want to make the application that resembles the Spotify app as close as possible.
+>I will create objects that hold the playlists and use an API call to call upon that information to appear onto the Main Component.
+>I will add a zoom feature to the cards and make a custom color code for my project. 
+>I will structure my code with the means of professionaism. I will avoid dirty code and remove all console.logs and notes that are not required for those who read the code in the future.
+>I will use SCSS to create the look of my UI. 
 Using React Router I will create a playlist page and link the home page to that specific page. 
-```
+
 
 #Goals
 My goal is to create an application that will resemble the Spotify brand in my own way. My goal is to implement features into the Spotify UI that will diversify the responsiveness of the application for the user.
@@ -21,8 +21,8 @@ My goal is to create an application that will resemble the Spotify brand in my o
 #Libraries
 Library	Description
 
-React Router -	Allows me to use router for my app.
-SCSS - CSS for my project.
+>React Router -	Allows me to use router for my app.
+>SCSS - CSS for my project.
 
 
 ```
@@ -42,7 +42,11 @@ src
               |__svgs
       ```
       
-      <br>
+      
+
+
+
+
 
 #### Component Breakdown
 
@@ -61,6 +65,8 @@ src
 
 <br>
 
+
+***
 #### Component Estimates
 
 
@@ -86,6 +92,7 @@ src
 
 
 ```
+***
 ### Post-MVP
 
 
