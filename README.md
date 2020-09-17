@@ -2,7 +2,7 @@
 
 SPotifyMe is a Spotify UI clone made to resemble the Spotify app as of September 2020.  This version of the Spotify UI has a few changes and features to make it my own and still keep the Spotify look and feel. 
 
-#Deployed site: 
+#Deployed site: http://spotifyme.surge.sh
  
 
 #MVP
