@@ -4,7 +4,7 @@ SPotifyMe is a Spotify UI clone made to resemble the Spotify app as of September
 
 #Deployed site: http://spotifyme.surge.sh
  
-
+```
 #MVP
 I want to make the application that resembles the Spotify app as close as possible.
 I will create objects that hold the playlists and use an API call to call upon that information to appear onto the Main Component.
@@ -12,6 +12,7 @@ I will add a zoom feature to the cards and make a custom color code for my proje
 I will structure my code with the means of professionaism. I will avoid dirty code and remove all console.logs and notes that are not required for those who read the code in the future.
 I will use SCSS to create the look of my UI. 
 Using React Router I will create a playlist page and link the home page to that specific page. 
+```
 
 #Goals
 My goal is to create an application that will resemble the Spotify brand in my own way. My goal is to implement features into the Spotify UI that will diversify the responsiveness of the application for the user.
@@ -24,7 +25,7 @@ React Router -	Allows me to use router for my app.
 SCSS - CSS for my project.
 
 
-
+```
 Component Hierarchy
 src
 |______
@@ -39,7 +40,7 @@ src
               |__pages
                   |__Playlist.jsx
               |__svgs
-      
+      ```
 
 #### Component Breakdown
 
@@ -84,12 +85,12 @@ src
 ### Post-MVP
 
 
-
+```
 -Create accurate search page with cards, colors, and music.
 -link working profile with UI using Spotify API.
 -Create Library with favorite music. 
 -Create music controls panel
--
+```
 
 <br>
 
@@ -133,8 +134,9 @@ const matchedPlaylists = dataPlaylists.filter(playlist => playlist.category_id =
 ```
 
 ### Code Issues & Resolutions
-
+```
 > Some of the hover effects were not working properly and then I found out that it had more to do with my Div organization. Fixed it and it worked. 
 > Some of the svgs would not change color using fill command. I had to edit the svg code and then the editing worked.
 > The inital API call did not work right. I had to change some things around and I managed to get it working well.
 > The hover effect of the play button was tough to get right. It kept falling off the card. I messed around with the scss and gave it a fixed position and it worked better.
+```
